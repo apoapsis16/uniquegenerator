@@ -35,5 +35,6 @@ fn main() {
 
     println!();
 
-    
+    // read to keep CLI open
+    io::stdin().read_line(&mut String::new());
 }
